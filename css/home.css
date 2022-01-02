@@ -1,0 +1,44 @@
+* {
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  text-shadow: 1px 1px 4px black;
+}
+body {
+  background-image: url(../images/southIndianThali.jpg);
+  /* background-image: url(../images/Veggies.jpg); */
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  height: 100vh;
+
+  display: block;
+  position: relative;
+  left: 0;
+}
+h1 {
+  font-size: 4em;
+  background-color: rgba(0, 128, 0, 0.6);
+  border-radius: 2vmin;
+  border: 4px solid rgba(255, 166, 0, 0.9);
+  text-shadow: -1px -1px 5px red, 2px 2px 3px green, 0 0 5px white;
+  font-family: "Libre Baskerville", serif;
+}
+li {
+  font-size: 1.75rem;
+  margin: 1vmin;
+  padding: 3vmin;
+  list-style: none;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 5vmin;
+  background-color: rgba(255, 255, 255, 0.4);
+  font-family: "Proza Libre", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+li:hover {
+  background-color: rgba(0, 255, 0, 0.4);
+}
