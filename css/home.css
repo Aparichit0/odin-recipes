@@ -7,11 +7,9 @@
 }
 body {
   background-image: url(../images/southIndianThali.jpg);
-  /* background-image: url(../images/Veggies.jpg); */
-
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: fixed;
+  background-attachment: fixed;
   height: 100vh;
 
   display: block;
