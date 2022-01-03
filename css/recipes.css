@@ -71,3 +71,9 @@ p {
   font-family: 'Dancing Script', cursive;
   max-width: 45ch;
 }
+/* shift bg to left in smartphone screens(long yet thin) */
+@media screen and (max-width: 60vh) {
+  body {
+  background-position: 25%;
+}
+}
